@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Added Font Awesome -->
+    <style>
+        h2 {
+            color: rgb(251, 255, 0);
+        }
+        article {
+            margin: 50px;
+            padding: 50px;
+            border: 1px solid #ccc; /* Optional: for better visibility */
+        }
+        .project-boxes {
+            display: flex; /* Align boxes in a row */
+            flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+        }
+        .box {
+            margin: 20px 50px; /* Margin of 20px top/bottom and 50px left/right */
+            padding: 20px 50px; /* Padding of 20px top/bottom and 50px left/right */
+            border: 1px solid #000; /* Optional: for better visibility */
+            background-color: #f0f0f0; /* Optional: background color */
+            flex: 1 1 200px; /* Allow boxes to grow and shrink, with a minimum width */
+        }
+        #social-icons {
+            font-size: 1rem;
+            color: rgb(250, 15, 15); /* Changed icon color to blue */
+            display: flex; /* Align icons in a row */
+            justify-content: center; /* Center the icons horizontally */
+            margin: 20px;
+            padding: 25px; /* Optional: add some space above the icons */
+        }
+        @media (max-width: 600px) {
+            .box {
+                flex: 1 1 100%; /* Full width on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+      <section class="info-section">
+    <h2>About</h2>
+    <p>I am Jothish, a developer who builds web apps and mini projects using HTML, CSS, JS and Django.</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Django</li>
+    </ul>
+</section>
+    <h1 style="color: red;">projects</h1>
+    <article>
+        <h2>online compiler</h2>
+        <p>Compiler used for HTML, CSS, and JS.</p>
+    </article>
+    <h1 style="color: red;"> mini projects</h1>
+    <div class="project-boxes">
+        <div class="box">Project 1</div>
+        <div class="box">Project 2</div>
+        <div class="box">Project 3</div>
+    </div>
+  
+
+    <div id="social-icons">
+       <div id="social-icons">
+    <i class="fab fa-instagram" style="margin: 0 50px;"><span> JothishMj05</span></i>
+    
+    <i class="fab fa-linkedin" style="margin: 0 50px;"><span>  JothishMj</span></i>
+
+
+    <i class="fab fa-github" style="margin:  0 50px;"><span>  Joe6905</span></i>
+    
+</div>
+
+    </div>
+</body>
+</html>
